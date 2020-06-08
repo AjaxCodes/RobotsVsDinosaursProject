@@ -20,7 +20,7 @@ namespace DinosaursVsRobots
         int pounceDamage = 45;
 
 
-        public Dinosaur(string name, int health, int powerLevel, string weaponName, string weaponDamage) 
+        public Dinosaur(string name, int health, int powerLevel, string weaponName, int weaponDamage) 
         
         {
             this.type = name;

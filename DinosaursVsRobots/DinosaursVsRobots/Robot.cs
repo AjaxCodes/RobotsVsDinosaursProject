@@ -18,17 +18,24 @@ namespace DinosaursVsRobots
 
 
         // Constructor (spawner)
-        public Robot(string name, int health, int powerLevel, string weaponName, string weaponDamage)
+        public Robot(string name, int health, int powerLevel, string weaponName, int weaponDamage)
         {
+
             this.name = name;
             this.health = health;
             this.powerLevel = powerLevel;
             this.weapon = new Weapon(weaponName, 0);
 
 
-        
+
+
+
+        }
+
+
+
         //Robot Damage--------------------
-        
+
 
 
 
@@ -36,23 +43,9 @@ namespace DinosaursVsRobots
 
 
 
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
-    
+}
 
 
 
@@ -61,8 +54,29 @@ namespace DinosaursVsRobots
 
 
 
-    
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
