@@ -10,11 +10,15 @@ namespace DinosaursVsRobots
         // member variable (has a)
         public string weaponName;
         public int weaponDamage;
-
-        //public int tailSlapDamage = 5;
-        //public int biteDamage = 9;
-        //public int pounceDamage = 15;
-
+        //Dino Damage---------------------
+        public int tailSlapDamage = 15;
+        public int biteDamage = 30;
+        public int pounceDamage = 45;
+        
+        //Robot Damage--------------------
+        public int oilSprayDamage = 15;
+        public int lazerBeamDamage = 30;
+        public int trashtalkDamage = 45;
 
         // Constructor (spawner)
         public Weapon(string name, int damage)

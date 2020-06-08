@@ -12,9 +12,9 @@ namespace DinosaursVsRobots
         public int health;
         public int powerLevel;
         public Weapon weapon;
-        public int Damage = 15;
-        public int biteDamage = 30;
-        int pounceDamage = 45;
+        public int oilSprayDamage = 15;
+        public int lazerBeamDamage = 30;
+        public int trashtalkDamage = 45;
 
 
         // Constructor (spawner)
@@ -26,12 +26,45 @@ namespace DinosaursVsRobots
             this.weapon = new Weapon(weaponName, 0);
 
 
-
-            // ("MechDroid", 100, 2000);
-        }
+        
+        //Robot Damage--------------------
+        
 
 
 
         // Member method (can do)
+
+
+
     }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+    
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+
