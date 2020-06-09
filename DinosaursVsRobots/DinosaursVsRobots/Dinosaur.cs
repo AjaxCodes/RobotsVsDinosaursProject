@@ -8,7 +8,7 @@ namespace DinosaursVsRobots
 
 
     
-    class Dinosaur
+    public class Dinosaur
     {
         public String type;
         public int health;

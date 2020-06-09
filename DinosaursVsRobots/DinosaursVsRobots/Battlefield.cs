@@ -8,11 +8,11 @@ namespace DinosaursVsRobots
     {
         //Member Variable (Has A
 
-        
+
 
 
         //Teams ready to do battle
-        Herd herd = new Herd ();
+        Herd herd = new Herd();
         Fleet fleet = new Fleet();
 
 
@@ -27,56 +27,24 @@ namespace DinosaursVsRobots
         }
         public void RunBattle()
         {
-
-            for (int index = 0; index < fleet.robots.Count; index++)
+            //if statements to check the health of each robot and dinosaur
+            //can't attack if health <= 0
+            //keep track of each dino or robot that gets defeated
+            for (int index = 0; index < fleet.robots.Count; index++) //robot robot robot //dino dino dino
             {
-                fleet.robots[0].Attack();
-                herd.dinosaurs[0].attackPower();
+                fleet.robots[index].Attack(herd.dinosaurs[index]);
+                herd.dinosaurs[index].Attack(fleet.robots[index]);
+
+
+                if;("");
             }
-
-            
-
-
-            //Robot robot = new Robot();
-            //Dinosaur dinosaur = new Dinosaur();
-            //robot.Attack(dinosaur);
+             
+        
+        
+        
         
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-        //Constructor (Spawner)
-
-
-
-        // Member method (Can Do)
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
-
 }
 
 

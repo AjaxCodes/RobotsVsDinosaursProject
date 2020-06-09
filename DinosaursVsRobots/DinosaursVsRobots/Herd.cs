@@ -16,7 +16,7 @@ namespace DinosaursVsRobots
         public int pounceDamage = 45;
 
 
-        public List<Dinosaur> dinosaurs = new List <Dinosaur>();
+       
         public Herd()
         {
 
@@ -24,11 +24,11 @@ namespace DinosaursVsRobots
             
 
         }
-       
-
-        
 
 
+
+
+        public List<Dinosaur> dinosaurs = new List<Dinosaur>();
 
         // Constructor (spawner)
         // Member method (can do)

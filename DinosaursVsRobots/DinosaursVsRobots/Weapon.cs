@@ -27,7 +27,7 @@ namespace DinosaursVsRobots
             weaponDamage = damage;
 
 
-            Attack = (weaponName + weaponDamage);
+         
         }
 
 
