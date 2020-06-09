@@ -37,27 +37,27 @@ namespace DinosaursVsRobots
 
                 if (herd.dinosaurs[index].health <= 0)
                 {
-                    "Dino DOWN!!!!"
+                    Console.WriteLine("Dino DOWN!!!!");
                 }
                 else if (herd.dinosaurs[index].health <= 0)
                 {
-                    "Dino DOWN!!!!"
+                    Console.WriteLine("Dino DOWN!!!!");
                 }
                 else if (herd.dinosaurs[index].health <= 0)
                 {
-                    "Dino DOWN!!!!, ROBOTS WIN"
+                    Console.WriteLine("Dino DOWN!!!!, ROBOTS WIN");
                 }
                 else if (fleet.robots[index].health <= 0)
                 {
-                    "Robot DOWN!!!!"
+                    Console.WriteLine("Robot DOWN!!!!");
                 }
                 else if (fleet.robots[index].health <= 0)
                 {
-                    "Robot DOWN!!!!"
+                    Console.WriteLine("Robot DOWN!!!!");
                 }
-                else if (fleet.robots[index].health <= 0) 
+                else if (fleet.robots[index].health <= 0)
                 {
-                    "Robot DOWN!!!!, DINOSAURS WIN"
+                    Console.WriteLine("Robot DOWN!!!!, DINOSAURS WIN");
                 }
 
 
