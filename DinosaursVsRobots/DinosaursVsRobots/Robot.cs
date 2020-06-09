@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DinosaursVsRobots
 {
-    class Robot
+    public class Robot
     {
 
         // member variable (has a)
@@ -24,24 +24,22 @@ namespace DinosaursVsRobots
             this.name = name;
             this.health = health;
             this.powerLevel = powerLevel;
-            this.weapon = new Weapon(weaponName, 0);
-
-
-
+            this.weapon = new Weapon(weaponName, weaponDamage);
 
 
         }
 
-
-
-        //Robot Damage--------------------
-
-
+        
 
 
         // Member method (can do)
 
-
+        public void Attack(Dinosaur dinosaur)
+        {
+            //dinosaur loses health based off of robot attack power
+            dinosaur.health -= weapon.weaponDamage;
+            
+        }
 
 
     }

@@ -41,7 +41,13 @@ namespace DinosaursVsRobots
 
         // Member method (can do)
 
+        public void Attack(Robot robot)
+        {
+            robot.health -= weapon.weaponDamage;
 
+
+
+        }
 
 
     }

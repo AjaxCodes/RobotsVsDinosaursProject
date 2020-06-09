@@ -8,15 +8,15 @@ namespace DinosaursVsRobots
         {
             Console.WriteLine("Hello World!");
 
-            int x = 6;
-            Robot robotOne = new Robot("Bender", 100, 2000,"trashTalkDamage", 45);
-            Robot robotTwo = new Robot("Mechazilla",50,4000,"lazerbeamDamage", 30 );
-            Robot robotThree = new Robot("Iron Giant", 200, 1000,"oilSprayDamage", 15);
-            Dinosaur dinosaurOne = new Dinosaur("T-Rex", 100, 2000, "", 30);
-            Dinosaur dinosaurTwo = new Dinosaur("Brontosaurus", 50, 4000, "", 15);
-            Dinosaur dinosaurThree = new Dinosaur("Raptor", 200, 1000, "", 45);
 
 
+            Dinosaur dinosaurOne = new Dinosaur("T-Rex", 2000, 1, "BiteDamage", 30);
+            Dinosaur dinosaurTwo = new Dinosaur("Brontosaurus", 4000, 1, "tailWhipDamage", 15);
+            Dinosaur dinosaurThree = new Dinosaur("Raptor", 1000, 1, "pounceDamage", 45);
+
+            Robot robotOne = new Robot("Bender", 1000, 1, "trashTalkDamage", 45);
+            Robot robotTwo = new Robot("Mechazilla", 2000, 1, "lazerbeamDamage", 30);
+            Robot robotThree = new Robot("Iron Giant", 4000, 1, "oilSprayDamage", 15);
 
 
             robotOne.health -= 10;

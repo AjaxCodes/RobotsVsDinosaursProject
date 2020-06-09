@@ -5,7 +5,7 @@ using System.Text;
 namespace DinosaursVsRobots
 {
 
-    class Weapon
+    public class Weapon
     {
         // member variable (has a)
         public string weaponName;
@@ -25,6 +25,9 @@ namespace DinosaursVsRobots
         {
             weaponName = name;
             weaponDamage = damage;
+
+
+            Attack = (weaponName + weaponDamage);
         }
 
 
