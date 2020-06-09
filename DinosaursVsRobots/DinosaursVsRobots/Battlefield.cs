@@ -35,16 +35,54 @@ namespace DinosaursVsRobots
                 fleet.robots[index].Attack(herd.dinosaurs[index]);
                 herd.dinosaurs[index].Attack(fleet.robots[index]);
 
+                if (herd.dinosaurs[index].health <= 0)
+                {
+                    "Dino DOWN!!!!"
+                }
+                else if (herd.dinosaurs[index].health <= 0)
+                {
+                    "Dino DOWN!!!!"
+                }
+                else if (herd.dinosaurs[index].health <= 0)
+                {
+                    "Dino DOWN!!!!, ROBOTS WIN"
+                }
+                else if (fleet.robots[index].health <= 0)
+                {
+                    "Robot DOWN!!!!"
+                }
+                else if (fleet.robots[index].health <= 0)
+                {
+                    "Robot DOWN!!!!"
+                }
+                else if (fleet.robots[index].health <= 0) 
+                {
+                    "Robot DOWN!!!!, DINOSAURS WIN"
+                }
 
-                if;("");
+
             }
              
-        
-        
-        
-        
+
+
+            
+
+
+
+
+
+
         }
-    }
+
+    }            
+                
+                
 }
+
+
+
+
+
+   
 
 
